@@ -1,0 +1,110 @@
+.width--micro--xxs{width: @micro--xxs * 1px}
+.width--micro--xs{width: @micro--xs * 1px}
+.width--micro--sm{width: @micro--sm * 1px}
+.width--micro--md{width: @micro--md * 1px}
+.width--micro--lg{width: @micro--lg * 1px}
+.width--micro--xl{width: @micro--xl * 1px}
+.width--micro--xxl{width: @micro--xxl * 1px}
+
+.width--xxs{width: @xxs * 1px}
+.width--xs{width: @xs * 1px}
+.width--sm{width: @sm * 1px}
+.width--md{width: @md * 1px}
+.width--lg{width: @lg * 1px}
+.width--xl{width: @xl * 1px}
+.width--xxl{width: @xxl * 1px}
+
+.width--macro--xxs{width: @macro--xxs * 1px}
+.width--macro--xs{width: @macro--xs * 1px}
+.width--macro--sm{width: @macro--sm * 1px}
+.width--macro--md{width: @macro--md * 1px}
+.width--macro--lg{width: @macro--lg * 1px}
+.width--macro--xl{width: @macro--xl * 1px}
+.width--macro--xxl{width: @macro--xxl * 1px}
+
+.height--micro--xxs{height: @micro--xxs * 1px}
+.height--micro--xs{height: @micro--xs * 1px}
+.height--micro--sm{height: @micro--sm * 1px}
+.height--micro--md{height: @micro--md * 1px}
+.height--micro--lg{height: @micro--lg * 1px}
+.height--micro--xl{height: @micro--xl * 1px}
+.height--micro--xxl{height: @micro--xxl * 1px}
+
+.height--xxs{height: @xxs * 1px}
+.height--xs{height: @xs * 1px}
+.height--sm{height: @sm * 1px}
+.height--md{height: @md * 1px}
+.height--lg{height: @lg * 1px}
+.height--xl{height: @xl * 1px}
+.height--xxl{height: @xxl * 1px}
+
+.height--macro--xxs{height: @macro--xxs * 1px}
+.height--macro--xs{height: @macro--xs * 1px}
+.height--macro--sm{height: @macro--sm * 1px}
+.height--macro--md{height: @macro--md * 1px}
+.height--macro--lg{height: @macro--lg * 1px}
+.height--macro--xl{height: @macro--xl * 1px}
+.height--macro--xxl{height: @macro--xxl * 1px}
+
+.value--micro--xxs{&:before{content: "@{micro--xxs}"}}
+.value--micro--xs{&:before{content: "@{micro--xs}"}}
+.value--micro--sm{&:before{content: "@{micro--sm}"}}
+.value--micro--md{&:before{content: "@{micro--md}"}}
+.value--micro--lg{&:before{content: "@{micro--lg}"}}
+.value--micro--xl{&:before{content: "@{micro--xl}"}}
+.value--micro--xxl{&:before{content: "@{micro--xxl}"}}
+
+.value--xxs{&:before{content: "@{xxs}"}}
+.value--xs{&:before{content: "@{xs}"}}
+.value--sm{&:before{content: "@{sm}"}}
+.value--md{&:before{content: "@{md}"}}
+.value--lg{&:before{content: "@{lg}"}}
+.value--xl{&:before{content: "@{xl}"}}
+.value--xxl{&:before{content: "@{xxl}"}}
+
+.value--macro--xxs{&:before{content: "@{macro--xxs}"}}
+.value--macro--xs{&:before{content: "@{macro--xs}"}}
+.value--macro--sm{&:before{content: "@{macro--sm}"}}
+.value--macro--md{&:before{content: "@{macro--md}"}}
+.value--macro--lg{&:before{content: "@{macro--lg}"}}
+.value--macro--xl{&:before{content: "@{macro--xl}"}}
+.value--macro--xxl{&:before{content: "@{macro--xxl}"}}
+
+
+
+
+.sons--show-value > {
+    [class^="width--"]:before{
+        font-size: 11px;
+        .bg--tertiary;
+        // margin-left: ~"calc(10% + 10px)";
+        position: absolute;
+        line-height: 12px;
+        float: left;
+        margin-left: -55px;
+        padding: 0px;
+    }
+    .width--micro--xxs{&:before{content: "@{micro--xxs}"}}
+    .width--micro--xs{&:before{content: "@{micro--xs}"}}
+    .width--micro--sm{&:before{content: "@{micro--sm}"}}
+    .width--micro--md{&:before{content: "@{micro--md}"}}
+    .width--micro--lg{&:before{content: "@{micro--lg}"}}
+    .width--micro--xl{&:before{content: "@{micro--xl}"}}
+    .width--micro--xxl{&:before{content: "@{micro--xxl}"}}
+
+    .width--xxs{&:before{content: "@{xxs}"}}
+    .width--xs{&:before{content: "@{xs}"}}
+    .width--sm{&:before{content: "@{sm}"}}
+    .width--md{&:before{content: "@{md}"}}
+    .width--lg{&:before{content: "@{lg}"}}
+    .width--xl{&:before{content: "@{xl}"}}
+    .width--xxl{&:before{content: "@{xxl}"}}
+
+    .width--macro--xxs{&:before{content: "@{macro--xxs}"}}
+    .width--macro--xs{&:before{content: "@{macro--xs}"}}
+    .width--macro--sm{&:before{content: "@{macro--sm}"}}
+    .width--macro--md{&:before{content: "@{macro--md}"}}
+    .width--macro--lg{&:before{content: "@{macro--lg}"}}
+    .width--macro--xl{&:before{content: "@{macro--xl}"}}
+    .width--macro--xxl{&:before{content: "@{macro--xxl}"}}
+}

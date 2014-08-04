@@ -1,0 +1,89 @@
+@color--primary:                       @brand--primary;
+@color--secondary:                     rgb(30,120,255);
+@color--tertiary:                      rgb(245,225,0);
+@color--accent:                        @brand--accent;
+
+@brand--accent:                        rgb(40,200,40);
+
+@brand--primary:                       rgb(250,30,0);
+@brand--warning:                       rgb(70,70,120);
+@brand--success:                       rgb(70,70,120);
+@brand--error:                         rgb(70,70,120);
+
+@border-color--weak:                   #888;
+@border-color:                         #444;
+@border-color--strong:                 #000;
+
+@bg--darker:                           rgb(160,160,160);
+@bg--dark:                             rgb(200,200,200);
+@bg:                                   rgb(235,235,235);
+@bg--controls:                         rgb(236,236,236);
+@bg--canvas:                           rgb(246,246,246);
+@bg--content:                          white;
+
+
+@bg--darker:                           rgb(160,160,160);
+@bg--dark:                             rgb(200,200,200);
+@bg--medium:                           rgb(225,225,225);
+@bg--light:                            rgb(232,232,232);
+@bg--lighter:                          rgb(246,246,246);
+@bg--content:                          white;
+
+
+@bg--primary:                          @color--primary;
+@bg--secondary:                        @color--secondary;
+@bg--tertiary:                         @color--tertiary;
+
+@border-width:                         2px;
+
+@radius--xs:                           4px;
+@radius--sm:                           6px;
+@radius--md:                           9px;
+@radius--lg:                           13px;
+@radius--xl:                           18px;
+
+
+@gray--darker:                       #000000;
+@gray--dark:                         #333333;
+@border-color--medium:               rgb(210,210,210);
+@gray:                               #666666;
+@gray--light:                        #999999;
+@gray--lighter:                      #cccccc;
+               
+@border-color--darker:               rgb(130,130,130);
+@border-color--dark:                 rgb(180,180,180);
+@border-color--light:                rgb(225,225,225);
+@border-color--lighter:              rgb(235,235,235);
+
+@border-color:                       @color--secondary;
+
+
+@modularRatio:                       1.5;
+   
+@minimal-size:                       1px;
+   
+@minimal-supported-screen-width:     1024;
+   
+@micro--xxs:                         @minimal-size;
+@micro--xs:                          round(@micro--xxs * @modularRatio);
+@micro--sm:                          round(@micro--xs * @modularRatio);
+@micro--md:                          round(@micro--sm * @modularRatio);
+@micro--lg:                          round(@micro--md * @modularRatio);
+@micro--xl:                          round(@micro--lg * @modularRatio);
+@micro--xxl:                         round(@micro--xl * @modularRatio);
+
+@xxs:                                round(@micro--xxl * @modularRatio);
+@xs:                                 round(@xxs * @modularRatio);
+@sm:                                 round(@xs * @modularRatio);
+@md:                                 round(@sm * @modularRatio);
+@lg:                                 round(@md * @modularRatio);
+@xl:                                 round(@lg * @modularRatio);
+@xxl:                                round(@xl * @modularRatio);
+
+@macro--xxs:                         round(@xxl * @modularRatio);
+@macro--xs:                          round(@macro--xxs * @modularRatio);
+@macro--sm:                          round(@macro--xs * @modularRatio);
+@macro--md:                          round(@macro--sm * @modularRatio);
+@macro--lg:                          round(@macro--md * @modularRatio);
+@macro--xl:                          round(@macro--lg * @modularRatio);
+@macro--xxl:                         round(@macro--xl * @modularRatio);
