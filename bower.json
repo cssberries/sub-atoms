@@ -1,10 +1,10 @@
 {
   "name": "sub-atoms",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/cssberries/sub-atoms",
   "authors": [
     "Belov",
-    "Yevgeniy <yevgeniy.belov@hp.com>"
+    "Yevgeniy <ugenmail@gmail.com>"
   ],
   "description": "CSS framework",
   "main": "sub-atoms.less",
