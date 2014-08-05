@@ -1,0 +1,29 @@
+@modularRatio:                       1.5;
+   
+@minimal-size:                       1px;
+   
+@minimal-supported-screen-width:     1024;
+   
+@micro--xxs:                         @minimal-size;
+@micro--xs:                          round(@micro--xxs * @modularRatio);
+@micro--sm:                          round(@micro--xs * @modularRatio);
+@micro--md:                          round(@micro--sm * @modularRatio);
+@micro--lg:                          round(@micro--md * @modularRatio);
+@micro--xl:                          round(@micro--lg * @modularRatio);
+@micro--xxl:                         round(@micro--xl * @modularRatio);
+
+@xxs:                                round(@micro--xxl * @modularRatio);
+@xs:                                 round(@xxs * @modularRatio);
+@sm:                                 round(@xs * @modularRatio);
+@md:                                 round(@sm * @modularRatio);
+@lg:                                 round(@md * @modularRatio);
+@xl:                                 round(@lg * @modularRatio);
+@xxl:                                round(@xl * @modularRatio);
+
+@macro--xxs:                         round(@xxl * @modularRatio);
+@macro--xs:                          round(@macro--xxs * @modularRatio);
+@macro--sm:                          round(@macro--xs * @modularRatio);
+@macro--md:                          round(@macro--sm * @modularRatio);
+@macro--lg:                          round(@macro--md * @modularRatio);
+@macro--xl:                          round(@macro--lg * @modularRatio);
+@macro--xxl:                         round(@macro--xl * @modularRatio);
