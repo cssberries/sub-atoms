@@ -1,0 +1,106 @@
+/*----------------------------------------------*/
+.width--hintbar--narrow{width:@width--hintbar--narrow}
+.width--hintbar--normal{width:@width--hintbar--normal}
+.width--hintbar--wide{width:@width--hintbar--wide}
+/*----------------------------------------------*/
+.width--toolbar--narrow{width:@width--toolbar--narrow}
+.width--toolbar--normal{width:@width--toolbar--normal}
+.width--toolbar--wide{width:@width--toolbar--wide}
+/*----------------------------------------------*/
+.width--pane--narrower{width:@width--pane--narrower}
+.width--pane--narrow{width:@width--pane--narrow}
+.width--pane--normal{width:@width--pane--normal}
+.width--pane--wide{width:@width--pane--wide}
+/*----------------------------------------------*/
+.width--content--narrow{width:@width--content--narrow}
+.width--content--normal{width:@width--content--normal}
+.width--content--wide{width:@width--content--wide}
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+.max-width--hintbar--narrow{max-width:@width--hintbar--narrow}
+.max-width--hintbar--normal{max-width:@width--hintbar--normal}
+.max-width--hintbar--wide{max-width:@width--hintbar--wide}
+/*----------------------------------------------*/
+.max-width--toolbar--narrow{max-width:@width--toolbar--narrow}
+.max-width--toolbar--normal{max-width:@width--toolbar--normal}
+.max-width--toolbar--wide{max-width:@width--toolbar--wide}
+/*----------------------------------------------*/
+.max-width--pane--narrower{max-width:@width--pane--narrower}
+.max-width--pane--narrow{max-width:@width--pane--narrow}
+.max-width--pane--normal{max-width:@width--pane--normal}
+.max-width--pane--wide{max-width:@width--pane--wide}
+/*----------------------------------------------*/
+.max-width--content--narrow{max-width:@width--content--narrow}
+.max-width--content--normal{max-width:@width--content--normal}
+.max-width--content--wide{max-width:@width--content--wide}
+/* Fluid widths ========================================================*/
+
+.fluid--width--hintbar--narrow{
+    width:@fluid--width--hintbar--narrow;
+    // min-width: ceil(@width--hintbar--narrow);
+    // max-width:@width--hintbar--normal - 1;
+}
+.fluid--width--hintbar--normal{
+    width:@fluid--width--hintbar--normal;
+    // min-width: ceil(@width--hintbar--normal);
+    // max-width:@width--hintbar--wide - 1;
+}
+.fluid--width--hintbar--wide{
+    width:@fluid--width--hintbar--wide;
+    // min-width: ceil(@width--hintbar--wide);
+    // max-width:@width--toolbar--narrow - 1;
+}
+/*----------------------------------------------*/
+.fluid--width--toolbar--narrow{
+    width:@fluid--width--toolbar--narrow;
+    // min-width: ceil(@width--toolbar--narrow);
+    // max-width:@width--toolbar--normal - 1;
+}
+.fluid--width--toolbar--normal{
+    width:@fluid--width--toolbar--normal;
+    // min-width: ceil(@width--toolbar--normal);
+    // max-width:@width--toolbar--wide - 1;
+}
+.fluid--width--toolbar--wide{
+    width:@fluid--width--toolbar--wide;
+    // min-width: ceil(@width--toolbar--wide);
+    // max-width:@width--pane--narrower - 1;
+}
+/*----------------------------------------------*/
+.fluid--width--pane--narrower{
+    width:@fluid--width--pane--narrower;
+    // min-width: ceil(@width--toolbar--wide);
+    // max-width:@width--pane--narrow - 1;
+}
+.fluid--width--pane--narrow{
+    width:@fluid--width--pane--narrow;
+    // min-width: ceil(@width--pane--narrow);
+    // max-width:@width--pane--normal - 1;
+}
+.fluid--width--pane--normal{
+    width:@fluid--width--pane--normal;
+    // min-width: ceil(@width--pane--normal);
+    // max-width:@width--pane--wide - 1;
+}
+.fluid--width--pane--wide{
+    width:@fluid--width--pane--wide;
+    // min-width: ceil(@width--pane--wide);
+    // max-width:@width--content--narrow - 1;
+}
+/*----------------------------------------------*/
+.fluid--width--content--narrow{
+    width:@fluid--width--content--narrow;
+    // min-width: ceil(@width--content--narrow);
+    // max-width:@width--content--normal - 1;
+}
+.fluid--width--content--normal{
+    width:@fluid--width--content--normal;
+    // min-width: ceil(@width--content--normal);
+    // max-width:@width--content--wide - 1;
+}
+.fluid--width--content--wide{
+    width:@fluid--width--content--wide;
+    // min-width: ceil(@width--content--wide);
+    // max-width: 100%;
+}
+/*----------------------------------------------*/
