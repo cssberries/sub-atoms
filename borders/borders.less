@@ -1,27 +1,27 @@
 @import "borders__variables";
 
 .border {
-    border: @border-width solid @border-color;
+    border: @border-width solid @border-color--normal;
 }
 .border--t {
-    border-top: @border-width solid @border-color;
+    border-top: @border-width solid @border-color--normal;
 }
 .border--r {
-    border-right: @border-width solid @border-color;
+    border-right: @border-width solid @border-color--normal;
 }
 .border--b {
-    border-bottom: @border-width solid @border-color;
+    border-bottom: @border-width solid @border-color--normal;
 }
 .border--l {
-    border-left: @border-width solid @border-color;
+    border-left: @border-width solid @border-color--normal;
 }
 .border--h {
-    border-top: @border-width solid @border-color;
-    border-bottom: @border-width solid @border-color;
+    border-top: @border-width solid @border-color--normal;
+    border-bottom: @border-width solid @border-color--normal;
 }
 .border--v {
-    border-right: @border-width solid @border-color;
-    border-left: @border-width solid @border-color;
+    border-right: @border-width solid @border-color--normal;
+    border-left: @border-width solid @border-color--normal;
 }
 .border-color--weak {
     border: @border-width solid @border-color--weak;
@@ -45,16 +45,16 @@
     border-radius: 100em
 }
 .border--t--dashed {
-    border-top: @border-width dashed @border-color;
+    border-top: @border-width dashed @border-color--normal;
 }
 .border--r--dashed {
-    border-right: @border-width dashed @border-color;
+    border-right: @border-width dashed @border-color--normal;
 }
 .border--b--dashed {
-    border-bottom: @border-width dashed @border-color;
+    border-bottom: @border-width dashed @border-color--normal;
 }
 .border--l--dashed {
-    border-left: @border-width dashed @border-color;
+    border-left: @border-width dashed @border-color--normal;
 }
 .border--dotted {
     border-style: dotted;
@@ -63,11 +63,21 @@
     border-color: @color--primary;
 }
 .border-color {
-    border-color: @border-color;
+    border-color: @border-color--normal;
 }
 .border--b--dark{
     border-bottom: @border-width solid @border-color--dark;
 }
+
+.border--lighter{
+    border-color: @border-color--lighter;
+}
+.border--light{
+    border-color: @border-color--light;
+}
 .border--dark{
-    border: @border-width solid @border-color--dark;
+    border-color: @border-color--dark;
+}
+.border--darker{
+    border-color: @border-color--darker;
 }
